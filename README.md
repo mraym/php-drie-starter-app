@@ -16,4 +16,4 @@ $ drie app scale 1              # starts the app scaled to 1 instance
 
 For more information about using PHP on drie:
 
-- [drie documentation](http://docs.drie.co/v1.0/docs/drie.co)
+- [drie documentation](http://docs.drie.co/docs)
