@@ -1,28 +1,19 @@
-# php-getting-started
+# php-drie-starter-app
 
-A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to Heroku.
-
-This application supports the [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php) article - check it out.
+A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to drie.
 
 ## Deploying
 
-Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
-
 ```sh
 $ git clone git@github.com:heroku/php-getting-started.git # or clone your own fork
-$ cd php-getting-started
-$ heroku create
-$ git push heroku master
-$ heroku open
+$ cd php-drie-starter-app
+$ drie app add UNIQUE_APP_NAME  # adds the app to drie with a unique name
+$ drie app deploy               # deploys the app on drie 
+$ drie app scale 1              # starts the app scaled to 1 instance
 ```
-
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Documentation
 
-For more information about using PHP on Heroku, see these Dev Center articles:
+For more information about using PHP on drie:
 
-- [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php)
-- [PHP on Heroku](https://devcenter.heroku.com/categories/php)
+- [drie documentation](http://docs.drie.co/v1.0/docs/drie.co)
